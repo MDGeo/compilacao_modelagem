@@ -14,32 +14,34 @@ Compilar dados em planilhas custa muito tempo. Por isso, desenvolveu-se este com
 
 _______
 
-<a name = "ci" />
-### 1. Como Instalar? 
+<a name = "ci" ></a>
+## 1. Como Instalar?
 
 A instalação é bastante simples. Siga os passos abaixo:
 
-`1. Escolha o tipo de dado que você quer processar **VAZÃO** ou **NÍVEL D'ÁGUA**`
+`1.` Escolha o tipo de dado que você quer processar `VAZÃO` ou `NÍVEL D'ÁGUA`
 
-`2. Acesse a pasta e realize o download do arquivo com extensão **.exe**`
+`2.` Acesse a pasta e realize o download do arquivo com extensão `.exe`
 
-`3. Uma vez que tiver baixado, escolha uma pasta, de preferência vazia, para colocar seu **.exe**`
+`3.` Uma vez que tiver baixado, escolha uma pasta, de preferência vazia, para colocar seu `.exe`
+_________________________
 
-<a name = 'rst' />
-### 2. Requisitos da Sua Tabela
+<a name = 'rst' ></a>
+## 2. Requisitos da Sua Tabela
 
-- Compilação de Dados de Vazão
+#### Compilação de Dados de Vazão
 
-	- Tabela com os Dados de Vazão
+- `Tabela com os Dados de Vazão`
 	
 	Caso você queira compilar os dados de vazão, é necessário obedecer um tipo de formatação. Para isso, basta seguir o modelo abaixo (é **muito recomendável** que o nome das colunas também sejam iguais):
+	
 	
 	| Data | Intrsumento 1 | Instrumento 2|
 	|------|---------------|--------------|
 	|01/02/2000| 2000 | 5000 |
 	
 	
-	- Tabela com os dados de Coordenadas dos Instrumentos
+- `Tabela com os dados de Coordenadas dos Instrumentos`
 	
 	A mesma coisa se aplica para a tabela de instrumentos
 	
@@ -47,11 +49,13 @@ A instalação é bastante simples. Siga os passos abaixo:
 	|--------|-----|-----|--------------------|
 	|Instrumento 1| 000000 | 0000000 | 850 |
 	
-	**Observação** : esses duas tabelas podem estar dentro do mesmo arquivo, porém, em abas com nomes diferentes. Mais detalhes sobre isso em [Como Utilizar o Programa](#uop)
+	
+`Observação` : esses duas tabelas podem estar dentro do mesmo arquivo, porém, em abas com nomes diferentes. Mais detalhes sobre isso em [Como Utilizar o Programa](#uop)
+	
 
-- Compilação de Dados de Nível D'água
+#### Compilação de Dados de Nível D'água
 
-	- Tabela com os dados de Nível D'água
+- `Tabela com os dados de Nível D'água`
 	
 	A formatação correta da tabela é assim:
 	
@@ -59,17 +63,19 @@ A instalação é bastante simples. Siga os passos abaixo:
 	|------|-------|--------|--------------|
 	|01/02/2000| 01/05/2000 | 90 | 0|
 
-	- Tabela com os dados de Coordenadas dos Instrumentos
+- `Tabela com os dados de Coordenadas dos Instrumentos`
 
 	A tabela para as coordenadas dos instrumentos é bastante semelhante, tendo algumas mudanças:
+	
 	
 	| Código | E-W | N-S | Topo (m) | Base (m) |
 	|--------|-----|-----|----------|---------|
 	|Instrumento 1| 000000 | 0000000 | 850 | 700|
 
-<a name = "uop" />
+___________________________________________
 
-### 3. Usando o Programa
+<a name = "uop" ></a>
+## 3. Usando o Programa
 
 `1.` Colocando os arquivos dentro da pasta com o **.exe**
 
@@ -86,8 +92,8 @@ A instalação é bastante simples. Siga os passos abaixo:
 
 `4.` Vendo o arquivo de saída na pasta
 
-<a name = "sop" />
-### 4. Sobre o Programa
+<a name = "sop" ></a>
+## 4. Sobre o Programa
 
  - FAQ
  
