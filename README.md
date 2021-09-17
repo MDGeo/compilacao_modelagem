@@ -97,11 +97,13 @@ ___________________________________________
  
  ![image](https://user-images.githubusercontent.com/53950449/133777425-e95eb5c3-c804-48d9-b660-85719ba90f15.png)
 
+________________________
  
  `b.` Depois, aparecerá um campo para inserir o nome do arquivo. No caso, a minha planilha se chama `INPUT_VAZAO_POCOS_TRANS.xlsx`. É fundamental que você coloque o nome idêntico, além da extensão do arquivo, que no caso deve sempre ser `XLSX`. Ao preencher, basta apertar a tecla enter.
  
  ![image](https://user-images.githubusercontent.com/53950449/133780558-0ccad2e0-632d-4abf-8ca9-5314fb7ea341.png)
 
+________________________
 
 `c.` Em seguida, será solicitado o nome da aba. No caso da minha tabela, os dados de vazão dos poços se encontram na aba `Vazao_trimestral_m3dia`.
 
@@ -111,6 +113,7 @@ Copie o nome integralmente, preencha o espaço e pressione a tecla enter.
 
 ![image](https://user-images.githubusercontent.com/53950449/133778578-375b1126-cdab-4e3b-87bc-a589bf789ceb.png)
 
+________________________
 
 `d.` O próximo passo é inserir as informações onde estão as coordenadas, topo e base do poço (no caso de poço/vazão). Esses dados podem estar na mesma planilha que você já inseriu o nome no passo `a.`, ou em planilha diferente. No caso desse exemplo, os dados se encontram no mesmo arquivo, porém em aba diferente. 
 
@@ -120,30 +123,40 @@ Então, basta inserir o nome do arquivo, e dar enter.
 
 ![image](https://user-images.githubusercontent.com/53950449/133780677-0fad2e87-e561-401d-964d-9a8d1b140aa4.png)
 
+________________________
 
+**Nota**: tem um pequeno erro na linha de código `...que contém as coordenadas e a cota do filtro`. Apesar de indicar `cota do filtro`, é a planilha deve ser igual a mostrada no passo `d.`.
 
-__Nota__: tem um pequeno erro na linha de código `...que contém as coordenadas e a cota do filtro`. Apesar de indicar `cota do filtro`, é a planilha deve ser igual a mostrada no passo `d.`.
+________________________
 
 `e.` A penúltima entrada é o nome da aba em que se encontram tais informações. No caso do exemplo, é simplesmente `coordenadas`.
 
 ![image](https://user-images.githubusercontent.com/53950449/133780704-650022dd-8ab6-48b9-ab0e-6082cb6cee84.png)
 
+________________________
+
 `f.` Um aviso aparecerá. Se você tiver preenchido tudo certo, o programa irá processar normalmente. Caso contrário, ele irá apresentar um erro. Caso queira rodar, feche a janela, e abra o programa novamente.
+
+________________________
 
 `g.` Depois, aparecerão uma série de confirmações de que o código está rodando, até o momento que haverá uma solicitação para inserir a data de início do modelo. O formato da data necessariamente é **AAAA-MM-DD**.
 
 ![image](https://user-images.githubusercontent.com/53950449/133781006-d02bf575-7419-4b32-afbd-352fabf468ad.png)
 
+________________________
 
 `h.` Será solicitada uma confirmação. Aperte 1 caso sua data esteja correta ou 0 caso queira corrigir. 
 
 ![image](https://user-images.githubusercontent.com/53950449/133781087-cfe8072a-6e47-43ed-b683-297f8bfaa004.png)
+
+________________________
 
 `i.` Em seguida, haverá uma mensagem dizendo que o processamento foi concluído, e a janela se fechará muito rapidamente. 
 Confira a pasta em que se encontra o **.exe** e veja a planilha recém-criada.
 
 ![image](https://user-images.githubusercontent.com/53950449/133781227-089fc9c5-8f72-49df-bf2b-75b87ce4899e.png)
  
+________________________
 
 `4.` Vendo o arquivo de saída na pasta
 
@@ -158,18 +171,20 @@ Se os dados forem de nível d'água, terá o nome de `modelo_input_nivel...`
  - FAQ
  
  	- Esse programa vai ficar assim com essa janela feia? 
+ 	
  	`Resposta:` Por ora sim, mas futuramente será desenvolvida uma interface para deixar o programa mais amigável
 	
 	- Preciso seguir a formatação das planilhas igual apontada no [Capítulo 2](#rst)
+	
 	`Resposta:` Para evitar erros no processamento, sim. Infelizmente o código não é muito flexivel.
 	
  
  - Autor: Rodrigo Brust
+ 
  	  Leonardo Pereira
  
  - Empresa: MDGeo
  
 	- Setor: Modelagem Numérica
 
-- Coordenadores: Julio Yasbek
-                 Roberto Delfim
+- Coordenadores: Julio Yasbek & Roberto Delfim
