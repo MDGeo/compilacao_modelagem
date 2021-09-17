@@ -36,7 +36,7 @@ _________________________
 	Caso você queira compilar os dados de vazão, é necessário obedecer um tipo de formatação. Para isso, basta seguir o modelo abaixo (é **muito recomendável** que o nome das colunas também sejam iguais):
 	
 	
-	| Data | Intrsumento 1 | Instrumento 2|
+	| Data | Instrumento 1 | Instrumento 2|
 	|------|---------------|--------------|
 	|01/02/2000| 2000 | 5000 |
 	
@@ -179,9 +179,7 @@ Se os dados forem de nível d'água, terá o nome de `modelo_input_nivel...`
 	`Resposta:` Para evitar erros no processamento, sim. Infelizmente o código não é muito flexivel.
 	
  
- - Autor: Rodrigo Brust
- 
- 	  Leonardo Pereira
+ - Autor: Rodrigo Brust & Leonardo Pereira
  
  - Empresa: MDGeo
  
