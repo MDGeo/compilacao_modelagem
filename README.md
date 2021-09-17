@@ -17,6 +17,8 @@ _______
 <a name = "ci" ></a>
 ## 1. Como Instalar?
 
+### Windows
+
 A instalação é bastante simples. Siga os passos abaixo:
 
 `1.` Escolha o tipo de dado que você quer processar `VAZÃO` ou `NÍVEL D'ÁGUA`
@@ -24,6 +26,15 @@ A instalação é bastante simples. Siga os passos abaixo:
 `2.` Acesse a pasta e realize o download do arquivo com extensão `.exe`
 
 `3.` Uma vez que tiver baixado, escolha uma pasta, de preferência vazia, para colocar seu `.exe`
+
+### Linux 
+
+
+`1.` Escolha o tipo de dado que você quer processar `VAZÃO` ou `NÍVEL D'ÁGUA`
+
+`2.` Acesse a pasta e realize o download do arquivo com extensão `.py`
+
+`3.` Uma vez que tiver baixado, escolha uma pasta, de preferência vazia, para colocar seu `.py`
 _________________________
 
 <a name = 'rst' ></a>
